@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: monitor-example
+spec:
+  containers: 
+  - name: monitor-container
+    image: ishaansehgal99/monitor-example
+    resources: 
+      limits: 
+        memory: "50Mi"
